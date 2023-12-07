@@ -13,7 +13,7 @@
         <!--Starting an immersive WebXR session-->
         <button onclick="activateXR()">Start Hello WebXR </button>
         <script>
-            async function activateXR(){
+            async function activateXR() {
                 //Add a canvas element and initialize WebGL context
                 const canvas = document.createElement("canvas");
                 document.body.appendChild(canvas);
@@ -37,7 +37,7 @@
                 scene.add(cube);
 
                 //Set up the WebGLRenderer
-                const renderer = new THREE.WebGLREnderer({
+                const renderer = new THREE.WebGLRenderer({
                     alpha: true,
                     preserveDrawingBuffer: true,
                     canvas: canvas,
