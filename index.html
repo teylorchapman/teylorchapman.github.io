@@ -47,7 +47,7 @@
 
                 //The API directly updates the camera matrices. Disable matrix auto updates
                 // so three.js doesn't attempt to handle the matrices independently.
-                const camera = new THREE.Perspective.Camera();
+                const camera = new THREE.PerspectiveCamera();
                 camera.matrixAutoUpdate = false;
 
                 //Initialize a WebXR session using "immersive-ar".
