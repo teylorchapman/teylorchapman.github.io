@@ -483,11 +483,11 @@ body.section-show .transition-mask:before{
 .front-person-img > img{
 	max-width:100%;
 	vertical-align:bottom;
-	-webkit-transform:rotate(-45deg) translateY(40px);
-	-moz-transform:rotate(-45deg) translateY(40px);
-	-ms-transform:rotate(-45deg) translateY(40px);
-	-o-transform:rotate(-45deg) translateY(40px);
-	transform:rotate(-45deg) translateY(40px);
+	-webkit-transform:rotate(0deg) translateY(0px);
+	-moz-transform:rotate(0deg) translateY(0px);
+	-ms-transform:rotate(0deg) translateY(0px);
+	-o-transform:rotate(0deg) translateY(0px);
+	transform:rotate(0deg) translateY(0px);
 }
 
 .front-person-titles{
@@ -1802,11 +1802,11 @@ body .symp-btn{
 		width:360px;
 	}
 	.front-person-img > img{
-		-webkit-transform:rotate(-45deg) translateY(45px);
-		-moz-transform:rotate(-45deg) translateY(45px);
-		-ms-transform:rotate(-45deg) translateY(45px);
-		-o-transform:rotate(-45deg) translateY(45px);
-		transform:rotate(-45deg) translateY(45px);
+		-webkit-transform:rotate(0deg) translateY(0px);
+		-moz-transform:rotate(0deg) translateY(0px);
+		-ms-transform:rotate(0deg) translateY(0px);
+		-o-transform:rotate(0deg) translateY(0px);
+		transform:rotate(0deg) translateY(0px);
 	}
 	.front-person-links{
 		-webkit-transform:rotate(0deg);
@@ -1904,13 +1904,12 @@ body .symp-btn{
 		margin-top:120px;
 	}
 	.front-person-img > img{
-		-webkit-transform:rotate(-45deg) translateY(45px);
-		-moz-transform:rotate(-45deg) translateY(45px);
-		-ms-transform:rotate(-45deg) translateY(45px);
-		-o-transform:rotate(-45deg) translateY(45px);
-		transform:rotate(-45deg) translateY(100px);
+		-webkit-transform:rotate(0deg) translateY(0px);
+		-moz-transform:rotate(0deg) translateY(0px);
+		-ms-transform:rotate(0deg) translateY(0px);
+		-o-transform:rotate(0deg) translateY(0px);
+		transform:rotate(0deg) translateY(0px);
 		position:absolute;
 		bottom:0;
-		left:-40px;
 	}
 }
